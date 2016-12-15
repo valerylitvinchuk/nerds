@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Каталог — Nёrd's</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="container clearfix">
+				<a href="index.html" class="logo"><img src="img/logo.png" width="140" height="57" alt="Nёrd's"></a>
+				<div class="cart-block"><a href="#" class="cart icon-basket">Корзина</a></div>
+				<nav class="main-navigation clearfix">
+					<ul>
+						<li><a href="index.html">Студия</a></li>
+						<li><a href="#">Клиенты</a></li>
+						<li class="active"><a href="catalog.html">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+			</div>
+			<h1 class="catalog-title">Добро пожаловать в магазин<br>готовых макетов</h1>
+		</header>
+		<div class="container clearfix">
+			<div class="shop-left-column">
+				<div class="filters">
+				<form action="/echo" method="post">
+					<div class="range-filter">
+						<h2 class="content-column-title">Стоимость:</h2>
+						<div class="range-controls">
+							<div class="scale">
+								<div style="width:70%;" class="bar"></div>
+							</div>
+							<div class="toggle min-toggle"></div>
+							<div class="toggle max-toggle"></div>
+						</div>
+						<div class="price-controls">
+							<span>от <input class="min-price" type="text" value="0">
+							до <input class="max-price" type="text" value="15 000"></span>
+						</div>
+					</div>
+					<div class="grid">
+						<h2 class="content-column-title">Сетка:</h2>
+						<input type="radio" name="groups" value="razor" id="razor" checked>
+						<label class="icon-circle" for="razor">Адаптивная</label>
+						<input type="radio" name="groups" value="care" id="care">
+						<label class="icon-circle" for="care">Фиксированная</label>
+						<input type="radio" name="groups" value="accessories" id="accessories">
+						<label class="icon-circle" for="accessories">Резиновая</label>
+					</div>
+					<div class="options">
+						<h2 class="content-column-title">Особенности:</h2>
+						<input type="checkbox" name="baxter" id="baxter" checked>
+						<label class="icon-check-off" for="baxter">Слайдер</label>
+						<input type="checkbox" name="natty" id="natty" >
+						<label class="icon-check-off" for="natty">Блок преимуществ</label>
+						<input type="checkbox" name="suavecito" id="suavecito" checked>
+						<label class="icon-check-off" for="suavecito">Новости</label>
+						<input type="checkbox" name="malin" id="malin">
+						<label class="icon-check-off" for="malin">Галерея</label>
+						<input type="checkbox" name="murrays" id="murrays">
+						<label class="icon-check-off" for="murrays">Корзина</label>
+					</div>
+					<input class="btn btn-gray" type="submit" value="Показать">
+				</form>
+				</div>
+			</div>
+			<div class="shop-right-column">
+				<div class="websites">
+					<ul class="sort">
+						<li>Сортировать:</li>
+						<li>По цене</li>
+						<li>По типу</li>
+						<li>По функционалу</li>
+					</ul>
+					<div class="direction">
+						<div class="icon-down-dir active-dir"></div>
+						<div class="icon-up-dir"></div>
+					</div>
+					<div class="site">
+						<div class="site-header">
+							<div class="white-circles">
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+							</div>
+						</div>
+						<div class="preview">
+							<img src="img/site-1.jpg" width="240" height="240" alt="">
+						</div>
+						<div class="site-description">
+							<h2>Sunset</h2>
+							<div class="site-text">Интернет магазин с личным кабинетом</div>
+							<a class="btn btn-red" href="#">10&thinsp; 000&nbsp; р.</a>
+						</div>
+					</div>
+					<div class="site">
+						<div class="site-header">
+							<div class="white-circles">
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+							</div>
+						</div>
+						<div class="preview">
+							<img src="img/site-2.jpg" width="240" height="240" alt="">
+						</div>
+						<div class="site-description">
+							<h2>Sunset</h2>
+							<div class="site-text">Интернет магазин с личным кабинетом</div>
+							<a class="btn btn-red" href="#">10&thinsp; 000&nbsp; р.</a>
+						</div>
+					</div>
+					<div class="site">
+						<div class="site-header">
+							<div class="white-circles">
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+							</div>
+						</div>
+						<div class="preview">
+							<img src="img/site-3.jpg" width="240" height="240" alt="">
+						</div>
+						<div class="site-description">
+							<h2>Sunset</h2>
+							<div class="site-text">Интернет магазин с личным кабинетом</div>
+							<a class="btn btn-red" href="#">10&thinsp; 000&nbsp; р.</a>
+						</div>
+					</div>
+					<div class="site">
+						<div class="site-header">
+							<div class="white-circles">
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+							</div>
+						</div>
+						<div class="preview">
+							<img src="img/site-4.jpg" width="240" height="240" alt="">
+						</div>
+						<div class="site-description">
+							<h2>Sunset</h2>
+							<div class="site-text">Интернет магазин с личным кабинетом</div>
+							<a class="btn btn-red" href="#">10&thinsp; 000&nbsp; р.</a>
+						</div>
+					</div>
+					<div class="site">
+						<div class="site-header">
+							<div class="white-circles">
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+							</div>
+						</div>
+						<div class="preview">
+							<img src="img/site-5.jpg" width="240" height="240" alt="">
+						</div>
+						<div class="site-description">
+							<h2>Sunset</h2>
+							<div class="site-text">Интернет магазин с личным кабинетом</div>
+							<a class="btn btn-red" href="#">10&thinsp; 000&nbsp; р.</a>
+						</div>
+					</div>
+					<div class="site">
+						<div class="site-header">
+							<div class="white-circles">
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+								<div class="white-circle"></div>
+							</div>
+						</div>
+						<div class="preview">
+							<img src="img/site-6.jpg" width="240" height="240" alt="">
+						</div>
+						<div class="site-description">
+							<h2>Sunset</h2>
+							<div class="site-text">Интернет магазин с личным кабинетом</div>
+							<a class="btn btn-red" href="#">10&thinsp; 000&nbsp; р.</a>
+						</div>
+					</div>
+				</div>
+				<div class="pagination">
+					<ul class="paginator">
+						<li>
+							<a class="paginator-page active" href="#">1</a>
+						</li>
+						<li>
+							<a class="paginator-page" href="#">2</a>
+						</li>
+						<li>
+							<a class="paginator-page" href="#">3</a>
+						</li>
+						<li>
+							<a class="next-page" href="#">Следующая</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="map" id="yandex-map">
+			<div class="container">
+				<div class="contacts-block">
+					<h3>Nёrds design studio</h3>
+					<p class="contacts">
+					350000, Краснодар,<br>
+					ул. Головатого, 100<br>
+					<br>
+					тел. +7 (861) 275-75-75
+					</p>
+					<a class="btn btn-red btn-medium write-us" href="#">Напишите нам</a>
+				</div>
+			</div>
+		</div>
+		</section>
+		<footer class="main-footer">
+			<div class="container clearfix">
+				<div class="footer-social">
+					<a href="#" class="social-btn icon-vk"></a>
+					<a href="#" class="social-btn icon-fb"></a>
+					<a href="#" class="social-btn icon-instagram"></a>
+				</div>
+				<div class="footer-text">
+					<div class="footer-title">Давайте дружить, это выгодно!</div>
+					<p>Скидка 10% для друзей из социальных сетей.</p>
+				</div>
+			</div>
+		</footer>
+		<div class="modal-content">
+			<div class="modal-content-close btn-red"></div>
+			<form class="login-form" action="/echo" method="post">
+				<div class="clearfix">
+					<div class="left-modal-column">
+						<label for="login">Ваше имя:</label>
+						<input type="text" id="login" name="login" placeholder="Представьтесь, пожалуйста" required>
+					</div>
+					<div class="right-modal-column">
+						<label for="email">Ваш e-mail:</label>
+						<input type="email" id="email" name="email" placeholder="Для отправки ответа" required>
+					</div>
+				</div>
+				<label for="textarea">Текст письма:</label>
+				<textarea id="textarea" name="textarea" rows="10" placeholder="В свободной форме" required></textarea>
+				<button type="submit" class="btn btn-red">Отправить</button>
+				<button type="reset" class="btn btn-gray">Отмена</button>
+			</form>
+		</div>
+		<script src="js/script.min.js"></script>
+		<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="js/map.min.js"></script>
+	</body>
+</html>
